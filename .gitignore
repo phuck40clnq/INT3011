@@ -1,0 +1,14 @@
+# Environment
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+
+# LaTeX build artefacts (except main.pdf)
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.spl
