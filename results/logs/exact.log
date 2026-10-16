@@ -1,0 +1,45 @@
+[exact] n=2     cp_int                   cpsat        UNSAT    t=0.0013  
+[exact] n=2     cp_bool                  cpsat        UNSAT    t=0.0015  
+[exact] n=2     mip01                    gurobi       UNSAT    t=0.0004  
+[exact] n=2     mip01                    cplex        UNSAT    t=0.0031  
+[exact] n=2     cp_int                   cpoptimizer  ERROR    t=0.0  cpoptimizer not installed
+[exact] n=3     cp_int                   cpsat        UNSAT    t=0.0045  
+[exact] n=3     cp_bool                  cpsat        UNSAT    t=0.0033  
+[exact] n=3     mip01                    gurobi       UNSAT    t=0.0006  
+[exact] n=3     mip01                    cplex        UNSAT    t=0.0028  
+[exact] n=8     cp_int                   cpsat        SAT      t=0.008  
+[exact] n=8     cp_bool                  cpsat        SAT      t=0.0067  
+[exact] n=8     mip01                    gurobi       SAT      t=0.0003  
+[exact] n=8     mip01                    cplex        SAT      t=0.0056  
+[exact] n=16    cp_int                   cpsat        SAT      t=0.0195  
+[exact] n=16    cp_bool                  cpsat        SAT      t=0.0137  
+[exact] n=16    mip01                    gurobi       SAT      t=0.0064  
+[exact] n=16    mip01                    cplex        SAT      t=0.0068  
+[exact] n=24    cp_int                   cpsat        SAT      t=0.0383  
+[exact] n=24    cp_bool                  cpsat        SAT      t=0.0256  
+[exact] n=24    mip01                    gurobi       SAT      t=0.0007  
+[exact] n=24    mip01                    cplex        SAT      t=0.01  
+[exact] n=31    cp_int                   cpsat        SAT      t=0.0648  
+[exact] n=31    cp_bool                  cpsat        SAT      t=0.0419  
+[exact] n=31    mip01                    gurobi       SAT      t=0.0195  
+[exact] n=31    mip01                    cplex        SAT      t=0.0139  
+[exact] n=32    cp_int                   cpsat        SAT      t=0.0705  
+[exact] n=32    cp_bool                  cpsat        SAT      t=0.0433  
+[exact] n=32    mip01                    gurobi       SAT      t=0.0208  
+[exact] n=32    mip01                    cplex        ERROR    t=0.0  exceeds Community Edition limit
+[exact] n=40    cp_int                   cpsat        SAT      t=0.1117  
+[exact] n=40    cp_bool                  cpsat        SAT      t=0.0702  
+[exact] n=40    mip01                    gurobi       SAT      t=0.0265  
+[exact] n=44    cp_int                   cpsat        SAT      t=0.1365  
+[exact] n=44    cp_bool                  cpsat        SAT      t=0.0903  
+[exact] n=44    mip01                    gurobi       SAT      t=0.0518  
+[exact] n=64    cp_int                   cpsat        SAT      t=0.3307  
+[exact] n=64    cp_bool                  cpsat        SAT      t=0.2165  
+[exact] n=64    mip01                    gurobi       ERROR    t=0.0  exceeds size-limited license
+[exact] n=128   cp_int                   cpsat        SAT      t=2.0327  
+[exact] n=128   cp_bool                  cpsat        SAT      t=1.63  
+[exact] n=256   cp_int                   cpsat        SAT      t=53.0385  
+[exact] n=256   cp_bool                  cpsat        SAT      t=3.8703  
+[exact] n=512   cp_int                   cpsat        TIMEOUT  t=60.0065  
+[exact] n=512   cp_bool                  cpsat        SAT      t=10.1567  
+[exact] n=1000  cp_bool                  cpsat        TIMEOUT  t=62.0843  
