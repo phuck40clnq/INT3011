@@ -1,0 +1,20 @@
+\begin{tabular}{@{}lrrrrrrrr@{}}
+\toprule
+Encoding & \multicolumn{2}{c}{CaDiCaL} & \multicolumn{2}{c}{Glucose} & \multicolumn{2}{c}{Kissat} & \multicolumn{2}{c}{MiniSat} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}
+ & $n_{\max}$ & $t_{256}$ & $n_{\max}$ & $t_{256}$ & $n_{\max}$ & $t_{256}$ & $n_{\max}$ & $t_{256}$ \\
+\midrule
+pairwise & 128$^\dagger$ & -- & 128$^\dagger$ & -- & 128$^\dagger$ & -- & 128$^\dagger$ & -- \\
+PySAT pairwise & 128$^\dagger$ & -- & 128$^\dagger$ & -- & 128$^\dagger$ & -- & 128$^\dagger$ & -- \\
+sequential & 256 & 33.3 & 64 & -- & 256 & 11.6 & 512 & 1.52 \\
+PySAT seqcounter & 256 & 44.3 & 64 & -- & 512 & 9.65 & 512 & 1.44 \\
+binary & 512 & 5.77 & 512 & 1.57 & 512 & 22.8 & 512 & 1.47 \\
+PySAT bitwise & 256 & 6.90 & 512 & 1.95 & 512 & 14.9 & 512 & 1.36 \\
+commander & 512 & 1.85 & 512 & 1.28 & 512 & 2.21 & 512 & 1.27 \\
+product & 256 & 4.50 & 128 & TO & 512 & 3.29 & 512 & 0.77 \\
+\midrule
+PySAT ladder & 512 & 10.9 & 64 & -- & 512 & 6.74 & 512 & 2.16 \\
+PySAT totalizer & 128 & TO & 256$^\dagger$ & 53.8 & 128 & TO & 256$^\dagger$ & 45.0 \\
+PySAT cardnetwrk & 256 & 25.8 & 64 & -- & 512 & 13.1 & 512 & 2.21 \\
+\bottomrule
+\end{tabular}

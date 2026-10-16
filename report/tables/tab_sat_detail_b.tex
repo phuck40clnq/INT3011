@@ -1,0 +1,20 @@
+\begin{tabular}{@{}lrrrrrrrr@{}}
+\toprule
+Encoding & \multicolumn{4}{c}{$n=128$} & \multicolumn{4}{c}{$n=256$} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-9}
+ & CaDiCaL & Glucose & Kissat & MiniSat & CaDiCaL & Glucose & Kissat & MiniSat \\
+\midrule
+pairwise & 4.50 & 1.81 & 11.1 & 1.67 & -- & -- & -- & -- \\
+PySAT pairwise & 4.80 & 1.88 & 12.0 & 1.72 & -- & -- & -- & -- \\
+sequential & 5.53 & TO & 1.10 & 0.38 & 33.3 & -- & 11.6 & 1.52 \\
+PySAT seqcounter & 2.60 & TO & 1.95 & 0.31 & 44.3 & -- & 9.65 & 1.44 \\
+binary & 0.88 & 0.31 & 1.42 & 0.34 & 5.77 & 1.57 & 22.8 & 1.47 \\
+PySAT bitwise & 2.51 & 0.57 & 4.06 & 0.40 & 6.90 & 1.95 & 14.9 & 1.36 \\
+commander & 0.31 & 0.46 & 0.44 & 0.28 & 1.85 & 1.28 & 2.21 & 1.27 \\
+product & 2.36 & 45.0 & 1.79 & 0.18 & 4.50 & TO & 3.29 & 0.77 \\
+\midrule
+PySAT ladder & 2.53 & TO & 5.41 & 0.56 & 10.9 & -- & 6.74 & 2.16 \\
+PySAT totalizer & 6.84 & 5.53 & 10.6 & 3.06 & TO & 53.8 & TO & 45.0 \\
+PySAT cardnetwrk & 5.67 & TO & 3.57 & 0.57 & 25.8 & -- & 13.1 & 2.21 \\
+\bottomrule
+\end{tabular}
